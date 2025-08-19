@@ -1,0 +1,44 @@
+{
+  "name": "portfolio-analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Advanced portfolio analytics dashboard with real-time data visualization, interactive charts, and modern web technologies",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required for this project'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "analytics",
+    "dashboard",
+    "cryptocurrency",
+    "charts",
+    "visualization",
+    "real-time",
+    "responsive"
+  ],
+  "author": "ZCoding82",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZCoding82/portfolio-analytics-dashboard.git"
+  },
+  "homepage": "https://github.com/ZCoding82/portfolio-analytics-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/ZCoding82/portfolio-analytics-dashboard/issues"
+  }
+}
